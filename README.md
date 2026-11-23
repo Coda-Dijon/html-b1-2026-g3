@@ -2,10 +2,10 @@
 
 Membres du groupe :
 
-- A
-- B
-- C
-- D
+- Eliott
+- Adrien
+- Lucas
+- Samuel
 
 [Consignes](CONSIGNES.md)
 
