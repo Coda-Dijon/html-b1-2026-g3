@@ -7,11 +7,15 @@
         "header"
         "main"
         "footer";
-    place-items: center;
     gap: 1rem;
+    justify-content: center;
 }
 
-main{
+header{
+    color: #1f3d2b;   
+}
+
+.Accueil{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #E9E5D8;
