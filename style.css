@@ -39,7 +39,7 @@ footer{
     box-shadow: darkblue 20%;
 }
 
-.conteneur{
+.liste{
     display: flex;
     flex-direction: row;
     gap: .2rem;
