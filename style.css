@@ -40,21 +40,23 @@ footer{
 }
 
 .conteneur{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-        "carte";
-    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: .2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: end;
 }
 
 .carte{
-    box-sizing: border-box;
-    max-width: 20rem;
     border: black solid 10px;
+    box-sizing: border-box;
     border-radius: 10px;
-    background-color: #d9a441;
+    background-color: #ffffffa0;
     box-shadow: 20px black;
+    width: 25rem;
+    height: 25rem;
 }
 
 .carte img{
