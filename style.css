@@ -40,7 +40,6 @@ footer{
 }
 
 .liste{
-    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     gap: .2rem;
