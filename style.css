@@ -39,12 +39,12 @@ footer{
     box-shadow: darkblue 20%;
 }
 
-.liste{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: end;
+.conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "carte";
     gap: 1rem;
 }
 
@@ -54,6 +54,7 @@ footer{
     border: black solid 10px;
     border-radius: 10px;
     background-color: #d9a441;
+    box-shadow: 20px black;
 }
 
 .carte img{
