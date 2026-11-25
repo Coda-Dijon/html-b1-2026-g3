@@ -1,7 +1,7 @@
 .page{
     color: rgb(0, 0, 0);
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 100px 1fr 20px;
     grid-template-areas:
         "header"
@@ -18,6 +18,7 @@ main{
 }
 
 header{
+    box-sizing: border-box;
     background-color: #6fa24a;
 }
 
