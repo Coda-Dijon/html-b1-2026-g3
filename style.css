@@ -35,3 +35,20 @@ footer{
     box-shadow: darkblue 20%;
 }
 
+.conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "carte";
+    gap: 1rem;
+}
+
+.carte{
+
+    border: black solid 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #d9a441;
+    box-shadow: 20px black;
+}
