@@ -12,7 +12,7 @@
 }
 
 header{
-    color: #1f3d2b;   
+    
 }
 
 .Accueil{
@@ -39,7 +39,8 @@ footer{
     box-shadow: darkblue 20%;
 }
 
-.conteneur{
+.liste{
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
     gap: .2rem;
