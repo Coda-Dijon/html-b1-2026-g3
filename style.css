@@ -7,11 +7,11 @@
         "header"
         "main"
         "footer";
-    place-items: center;
     gap: 1rem;
+    justify-content: center;
 }
 
-main{
+.Accueil{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #E9E5D8;
@@ -35,20 +35,25 @@ footer{
     box-shadow: darkblue 20%;
 }
 
-.conteneur{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-        "carte";
+.liste{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: end;
     gap: 1rem;
 }
 
 .carte{
-
-    border: black solid 10px;
     box-sizing: border-box;
+    max-width: 20rem;
+    border: black solid 10px;
     border-radius: 10px;
     background-color: #d9a441;
-    box-shadow: 20px black;
+}
+
+.carte img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
 }
