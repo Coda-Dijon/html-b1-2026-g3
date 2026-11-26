@@ -17,8 +17,16 @@ header{
 
 .nav{
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 1rem;
     background-color: #263D30;
+}
+
+header .logo-responsive {
+    width: clamp(80px, 18vw, 250px);
+    height: auto;
+    display: block;
 }
 
 .Accueil{
