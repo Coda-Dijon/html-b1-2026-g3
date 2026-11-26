@@ -21,6 +21,10 @@ header{
     text-align: center;
 }
 
+.titre-actualite{
+    text-align: left;
+}
+
 .nav{
     display: flex;
     align-items: center;
@@ -76,7 +80,7 @@ footer{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #f4f1e7;
-    box-shadow: 20px black;
+    box-shadow: 0 20px black;
     width: 25rem;
     height: 25rem;
 }
