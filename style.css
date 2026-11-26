@@ -141,27 +141,26 @@ margin-inline: auto;
 
 .actualite {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .news {
     display: flex;
-    flex-direction: row;
-    gap: .5rem;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    flex-direction: column;
+    gap: 0.2rem;
 }
 
 .carte-actu{
     display: flex;
     flex-direction: row;
-    gap: .5rem;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    gap: .1rem;
     height: 25rem;
     width: 100vw;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 .image-actu img{
