@@ -21,6 +21,10 @@ header{
     text-align: center;
 }
 
+.titre-actualité{
+    text-align: left;
+}
+
 .nav{
     display: flex;
     align-items: center;
@@ -55,7 +59,8 @@ footer{
 }
 
 .liste{
-    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -103,3 +108,7 @@ a:active {
     color: inherit;
 }
 
+.contact-form {
+width: 60ch;
+margin-inline: auto;
+}
