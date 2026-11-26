@@ -1,9 +1,9 @@
 .page{
-    min-height: 90vh;
+    min-height: 100vh;
     color: rgb(0, 0, 0);
     margin: 0 auto;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
     grid-template-areas:
         "header"
@@ -26,7 +26,13 @@ header{
     align-items: center;
     gap: 1.5rem;
     padding: 0.5rem 1rem;
-    background-color: #263D30;
+}
+
+.nav a{
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10%;
+    background-color: #6fa24a;
 }
 
 header .logo-responsive {
