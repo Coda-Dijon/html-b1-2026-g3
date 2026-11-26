@@ -14,7 +14,7 @@
 
 header{
     margin: 0 0 0 0;
-    background-color: #1f3d2b;
+    background-color: #263D30;    
 }
 
 .titre{
@@ -26,17 +26,13 @@ header{
     align-items: center;
     gap: 1.5rem;
     padding: 0.5rem 1rem;
-<<<<<<< HEAD
 }
 
 .nav a{
     box-sizing: border-box;
     border-radius: 10px;
-    box-shadow: 10%;
-    background-color: #6fa24a;
-=======
-    background-color: #1f3d2b;
->>>>>>> af11ea04bf2e0b934061dd1ef2a208a1240e9eb4
+    box-shadow: 0px 0px 15px;
+    background-color: #f4f1e7;
 }
 
 header .logo-responsive {
@@ -60,7 +56,6 @@ footer{
 
 .liste{
     margin: 0 auto;
-    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -76,7 +71,7 @@ footer{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #f4f1e7;
-    box-shadow: 20px black;
+    box-shadow: 0px 0px 15px;
     width: 25rem;
     height: 25rem;
 }
@@ -107,3 +102,7 @@ a:active {
     color: inherit;
 }
 
+.contact-form {
+width: 60ch;
+margin-inline: auto;
+}
