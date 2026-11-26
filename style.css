@@ -52,6 +52,11 @@ header{
     color: #FFFFFF;
 }
 
+.logo-link{
+    margin: 1rem;
+    margin-right: 2rem;
+}
+
 header .logo-responsive {
     width: clamp(80px, 18vw, 250px);
     height: auto;
@@ -107,6 +112,10 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: inherit;
+}
+
 a:hover {
     color: #D9A441;
     text-decoration: none;
@@ -116,3 +125,16 @@ a:active {
     color: inherit;
 }
 
+.contact-form {
+width: 60ch;
+margin-inline: auto;
+}
+
+.news {
+    flex-direction: column;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
