@@ -28,15 +28,23 @@ header{
 .nav{
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
     padding: 0.5rem 1rem;
 }
 
 .nav a{
     box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    
+    width: 5rem;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px;
     background-color: #E9E5D8;
+}
+
+.logo-link{
+    margin: 1rem;
+    margin-right: 2rem;
 }
 
 header .logo-responsive {
@@ -111,4 +119,13 @@ a:active {
 .contact-form {
 width: 60ch;
 margin-inline: auto;
+}
+
+.news {
+    flex-direction: column;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
