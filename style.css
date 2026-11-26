@@ -50,10 +50,9 @@ header{
 }
 
 .nav a{
-    width: clamp(80px, 18vw, 250px);
     box-sizing: border-box;
     color: #FFFFFF;
-     display: flex;
+    display: flex;
 }
 
 .nav > a{
