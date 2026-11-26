@@ -14,7 +14,7 @@
 
 header{
     margin: 0 0 0 0;
-    background-color: #263D30;    
+    background-color: #1f3d2b;
 }
 
 .titre{
@@ -32,7 +32,7 @@ header{
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0px 0px 15px;
-    background-color: #f4f1e7;
+    background-color: #E9E5D8;
 }
 
 header .logo-responsive {
@@ -43,7 +43,7 @@ header .logo-responsive {
 
 .Accueil{
     box-sizing: border-box;
-    background-color: #E9E5D8;
+    background-color: white;
 }
 
 footer{
@@ -56,6 +56,7 @@ footer{
 
 .liste{
     margin: 0 auto;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -71,7 +72,7 @@ footer{
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #f4f1e7;
-    box-shadow: 0px 0px 15px;
+    box-shadow: 20px black;
     width: 25rem;
     height: 25rem;
 }
@@ -102,7 +103,3 @@ a:active {
     color: inherit;
 }
 
-.contact-form {
-width: 60ch;
-margin-inline: auto;
-}
