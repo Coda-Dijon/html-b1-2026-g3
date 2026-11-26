@@ -14,7 +14,7 @@
 
 header{
     margin: 0 0 0 0;
-    background-color: #263D30;    
+    background-color: #1f3d2b;
 }
 
 .titre{
@@ -26,6 +26,7 @@ header{
     align-items: center;
     gap: 1.5rem;
     padding: 0.5rem 1rem;
+<<<<<<< HEAD
 }
 
 .nav a{
@@ -33,6 +34,9 @@ header{
     border-radius: 10px;
     box-shadow: 10%;
     background-color: #6fa24a;
+=======
+    background-color: #1f3d2b;
+>>>>>>> af11ea04bf2e0b934061dd1ef2a208a1240e9eb4
 }
 
 header .logo-responsive {
@@ -56,7 +60,7 @@ footer{
 
 .liste{
     margin: 0 auto;
-    background-color: #f4f1e7;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     gap: 1rem;
