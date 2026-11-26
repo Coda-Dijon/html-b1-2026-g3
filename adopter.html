@@ -1,26 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Char’Adopt - Adopter</title>
 </head>
-<body>
+
+<body class="page">
     <header>
         <nav class="nav">
-            <p>
-                <a href="index.html">
-                    <img src="images/Green-Logo.png" alt="Char'Adopt Logo, retour à l'accueil"
-                        class="logo-responsive"></a>
-                <a href="index.html"> Accueil </a>
-                <a href="actualite.html"> Actualités </a>
-                <a href="Nos-choix.html"> Nos Choix </a>
-                <a href="adopter.html"> Adopter </a>
-                <a href="a_propos.html"> À Propos </a>
-            </p>
+            <a href="index.html">
+                <img src="images/Green-Logo.webp" alt="Char'Adopt Logo, retour à l'accueil" class="logo-responsive"></a>
+            <a href="index.html"> Accueil </a>
+            <a href="actualite.html"> Actualités </a>
+            <a href="Nos-choix.html"> Nos Choix </a>
+            <a href="adopter.html"> Adopter </a>
+            <a href="a_propos.html"> À Propos </a>
         </nav>
-        <h1>ADOPTER</h1>
     </header>
+
+    <main>
+        <h2>Adoption</h2>
+        <p>Bienvenue sur la page d'adoption ! Remplissez le formulaire ci-dessous pour nous contacter.</p>
+
+        <form action="#" method="post" class="contact-form">
+
+
+            <fieldset>
+                <legend>Informations personnelles</legend>
+
+                <label for="nom">Nom :</label>
+                <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+
+                <label for="prenom">Prénom :</label>
+                <input id="prenom" name="prenom" type="text" placeholder="Votre prénom" required>
+
+                <label for="email">Adresse e-mail :</label>
+                <input id="email" name="email" type="email" placeholder="exemple@email.com" required>
+
+                <label for="telephone">Téléphone :</label>
+                <input id="telephone" name="telephone" type="tel" placeholder="06 00 00 00 00">
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre choix</legend>
+
+                <label for="race">Race souhaitée :</label>
+                <select id="race" name="race" required>
+                    <option value="">-- Choisir une race --</option>
+                    <option value="percheron">Percheron</option>
+                    <option value="boulonnais">Boulonnais</option>
+                    <option value="ardennais">Ardennais</option>
+                    <option value="trait-du-nord">Trait du Nord</option>
+                    <option value="comtois">Comtois</option>
+                </select>
+
+                <label for="age">Age souhaité :</label>
+                <select id="age" name="age">
+                    <option value="jeune">-7 ans</option>
+                    <option value="adolescent">7-14 ans</option>
+                    <option value="adulte">14-21 ans</option>
+                </select>
+
+            </fieldset>
+            <legend>Votre message :</legend>
+            <fieldset>
+                <textarea id="message" name="message" rows="8" cols="58"
+                    placeholder="Expliquez votre demande..."></textarea>
+            </fieldset>
+            <button type="submit">Envoyer ma demande</button>
+        </form>
+    </main>
+    <footer>
+    </footer>
 </body>
+
 </html>
