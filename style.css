@@ -101,23 +101,26 @@ footer{
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    align-content: end;
 }
 
 .carte{
-    border: hidden 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid 5px black;
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #f4f1e7;
-    width: 25rem;
-    height: 35rem;
+    width: 25vw;
+    height: 30vw;
 }
 
 .carte img{
-    border-radius: 10px 10px 0 0;
-    height: 15rem;
+    width: 24.4vw;
+    height: 25vh;
     object-fit: cover;
+    border-radius: 7px;
+    border-bottom: 5px solid black;
 }
 
 a:link {
@@ -147,7 +150,6 @@ margin-inline: auto;
 }
 
 .news {
-    margin-left: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.2rem;    
@@ -158,21 +160,20 @@ margin-inline: auto;
     display: flex;
     flex-direction: row;
     gap: .1rem;
-    height: 25rem;
+    height: 17.5rem;
     width: 90vw;
     align-items: center;
-    border-color: black;
-    border-style: solid;
-    border-radius: 10px;
+    border: 5px solid black;
+    border-radius: 11px;
 }
 
 .image-actu img{
-    margin-left: 1rem;
-    border-radius: 10px;
-    width: 100%;
-    height: 15rem;
+    margin-top: 0.2rem;
+    border-radius: 8px;
+    width: 18rem;
+    height: 17.5rem;
     object-fit: cover;
-    margin: 1rem;
+    border-right: 5px solid black;
 }
 
 .adopter {
@@ -180,4 +181,29 @@ margin-inline: auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
+}
+
+.boulonnais{
+    margin: 2.5rem;
+}
+.boulonnais img{
+    border-radius: 10px;
+}
+
+.ardennais{
+    margin: 2.5rem;
+}
+.ardennais img{
+    border-radius: 10px;
+}
+
+.comtois{
+    margin: 2.5rem;
+}
+.comtois img{
+    border-radius: 10px;
+}
+
+.adopter{
+    background-color: #E9E5D8;
 }
