@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,45 +12,98 @@
             <a href="index.html" class="logo">
                 <img src="images/Green-Logo.webp" alt="Char'Adopt Logo, retour à l'accueil" class="logo-responsive">
             </a>
-                <!-- Bouton téléphone -->
+            <!-- Bouton téléphone -->
             <input type="checkbox" id="menu-mobile">
+            <label for="menu-mobile" class="burger">☰</label>
 
-            <label for="menu-mobile" class="burger">
-                ☰
-            </label>
-            
             <div class="nav-liens">
-            <a href="index.html"> Accueil </a>
-            <a href="actualite.html"> Actualités </a>
-            <a href="Nos-choix.html"> Nos Choix </a>
-            <a href="adopter.html"> Adopter </a>
-            <a href="a_propos.html"> À Propos </a>
+                <a href="index.html"> Accueil </a>
+                <a href="actualite.html"> Actualités </a>
+                <a href="Nos-choix.html"> Nos Choix </a>
+                <a href="adopter.html"> Adopter </a>
+                <a href="a_propos.html"> À Propos </a>
             </div>
-        </nav> 
+        </nav>
     </header>
 
     <main class="Accueil">
-        <h1>Adoptez votre cheval. Savourez la relation</h1>
-        <p class="sous-titres">
-            Vous aimez la viande mais aussi la nature ?
-            Chez Char’Adopt, c'est possible !
-            Adoptez, choyez, et devenez ami avec votre futur repas.
-            Un lien fort avec votre animal de dégustation n'en rend le goût qu'encore meilleur.
-        </p>
-        <div class="bande">
-            <p>120+ chevaux déjà adoptés par une famille</p>
-            <p>35 éleveurs passionnés</p>
-            <p>100 % plein air</p>
-            <p>0 % stress</p>
-            <p>4,8/5 d'adoptants rassasiés (et émus)</p>
-        </div>
-        <p>Un Point ou quelque chose</p>
+        <hgroup class="accueil-head">
+            <h1>Adoptez votre cheval,<br> Savourez la relation</h1>
+            <p class="intro">
+                Vous aimez la viande mais aussi la nature ?<br><br>
+                Chez Char’Adopt, c'est possible !
+                Adoptez, choyez, et devenez ami avec votre futur repas.<br>
+                Un lien fort avec votre animal de dégustation n'en rend le goût qu'encore meilleur.
+            </p>
+            <div class="hero-actions">
+                <a href="Nos-choix.html" class="button-adopter">Adoptez un cheval</a>
+                <a href="#fonctionnement" class="button-fonctionnement">Comment ça marche</a>
+            </div>
+            <img src="images/chevaux_accueil.webp" alt="Nos amis équestres">
+        </hgroup>
+
+        <section class="bande" aria-label="Nos Chiffres clés">
+            <div class="conteneur-stats">
+
+                <hgroup class ="stat">
+                    <h2 class="stat-chiffre">+120</h2>
+                    <p class="chiffre-label">adoptions Satisfaites</p>
+                </hgroup>
+
+                <hgroup class ="stat">
+                    <h2 class="stat-chiffre">+50</h2>
+                    <p class="chiffre-label">éleveurs passionnés</p>
+                </hgroup>
+
+                <hgroup class ="stat">
+                    <h2 class="stat-chiffre">+100%</h2>
+                    <p class="chiffre-label">élevé en plein air</p>
+                </hgroup>
+
+                <hgroup class ="stat">
+                    <h2 class="stat-chiffre">4,8/5</h2>
+                    <p class="chiffre-label">d'adoptants rassasiés (et émus)</p>
+                </hgroup>
+
+            </div>
+        </section>
+
+        <section class="section" id="fonctionnement" aria-labelledby="t-fonctionnement">
+            <h2 id="t-fonctionnement">Comment ça marche ?</h2>
+            <p class="intro">De la prairie à la table, en trois étapes et beaucoup d’amour.</p>
+            <ol class="grid" style="list-style:none;padding:0;margin:0">
+                <li class="card"><div class="step__n">1</div><h3>Choisissez</h3><p>Race, âge, caractère, petite manie préférée : parcourez les fiches et laissez-vous séduire. Le coup de foudre est fortement conseillé.</p></li>
+                <li class="card"><div class="step__n">2</div><h3>Adoptez</h3><p>Réservez votre compagnon en ligne, puis suivez sa vie au pré : photos, nouvelles de l’éleveur, galops du dimanche.</p></li>
+                <li class="card"><div class="step__n">3</div><h3>Savourez</h3><p>Le moment venu, votre viande est préparée par un artisan boucher et livrée chez vous. Servez-la avec une pensée émue et une bonne bouteille.</p></li>
+            </ol>
+        </section>
+
+        <section class="section" id="avis" aria-labelledby="t-avis">
+            <h2 id="t-avis">Ils ont adopté</h2>
+            <div class="grid">
+                <blockquote><p>J’ai appelé mon cheval Gustave. Je lui ai écrit toutes les semaines. Le jour J, j’ai pleuré. Et c’était délicieux.</p><footer>Marc, Strasbourg</footer></blockquote>
+                <blockquote><p>Enfin une façon de manger de la viande sans culpabilité… ou presque.</p><footer>Sophie, Colmar</footer></blockquote>
+            </div>
+        </section>
+
+        <section class="section" id="faq" aria-labelledby="t-faq" style="padding-top:0">
+            <h2 id="t-faq">Questions fréquentes</h2>
+            <div class="faq" style="margin-top:2rem">
+                <details><summary>Puis-je rendre visite à mon cheval ?</summary><p>Bien sûr ! Un ami, ça se rend visite.</p></details>
+                <details><summary>Et si je m’attache trop ?</summary><p>C’est le but. Notre service client est formé à l’écoute et aux mouchoirs.</p></details>
+                <details><summary>Quand ma viande est-elle livrée ?</summary><p>Quand votre cheval a atteint sa pleine maturité, en général entre 2 et 4 ans selon la race.</p></details>
+            </div>
+        </section>
+
+        <section class="section cta" aria-labelledby="t-cta">
+            <h2 id="t-cta">Prêt à rencontrer votre prochain repas ?</h2>
+            <p>Adoptez dès aujourd’hui et commencez une histoire qui se termine bien, surtout pour vos papilles.</p>
+            <a class="btn btn--forest" href="Nos-choix.html">Je choisis mon cheval</a>
+        </section>
     </main>
     <footer>
-        <p>Tous droits réservés Char'Adopt – 2026 – Création : Ranch Charu - Mentions Légales - Politique de confidentiaté - Partenariat</p>
-        <p>
-            <a href="condition-general.html"> Conditions Générales </a>
-        </p>
+        <p>Char'Adopt, la viande qui vous connaît déjà : Ranch Charu - Mentions Légales - Politique de confidentiaté - Partenariat</p>
+        <p><a href="condition-general.html">Conditions Générales</a></p>
     </footer>
 </body>
 </html>
