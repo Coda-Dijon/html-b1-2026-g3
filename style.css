@@ -24,6 +24,7 @@ header{
 .titre-actualité{
     text-align: left;
     background-color: #FFFFFF;
+    margin-left: 2rem;
 }
 
 .titre-actualité a{
@@ -143,6 +144,7 @@ margin-inline: auto;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    align-items: center;
 }
 
 .news {
@@ -156,7 +158,7 @@ margin-inline: auto;
     flex-direction: row;
     gap: .1rem;
     height: 25rem;
-    width: 100vw;
+    width: 90xvw;
     align-items: center;
     border-color: black;
     border-style: solid;
