@@ -115,8 +115,6 @@ footer{
 
 .carte img{
     border-radius: 10px 10px 0 0;
-    box-shadow: 50px;
-    width: 100%;
     height: 15rem;
     object-fit: cover;
 }
@@ -148,12 +146,14 @@ margin-inline: auto;
 }
 
 .news {
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
 }
 
 .carte-actu{
+    background-color: #E9E5D8;
     display: flex;
     flex-direction: row;
     gap: .1rem;
@@ -166,6 +166,7 @@ margin-inline: auto;
 }
 
 .image-actu img{
+    margin-left: 1rem;
     border-radius: 10px;
     width: 100%;
     height: 15rem;
